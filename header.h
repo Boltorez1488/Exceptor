@@ -1,0 +1,20 @@
+#pragma once
+#include <Poco/Util/Application.h>
+#include <Poco/Util/HelpFormatter.h>
+#include <iostream>
+#include <Poco/ConsoleChannel.h>
+#include <Poco/PatternFormatter.h>
+#include <Poco/FormattingChannel.h>
+#include <Poco/FileChannel.h>
+#include <Poco/DateTimeFormatter.h>
+#include <Poco/File.h>
+#include <cstdlib>
+#include <sstream>
+
+using Poco::Util::Application;
+using Poco::Util::Option;
+using Poco::Util::OptionSet;
+using Poco::Util::HelpFormatter;
+using Poco::Util::AbstractConfiguration;
+using Poco::Util::OptionCallback;
+using Poco::AutoPtr;
