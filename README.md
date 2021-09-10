@@ -1,5 +1,5 @@
 # Exceptor
-Exception filter for C++
+Old exception filter for C++.
 
 Requires:
 - Poco
